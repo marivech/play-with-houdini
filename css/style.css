@@ -10,6 +10,12 @@ textarea {
 
 h2 {
     text-align: center;
+    background-image: paint(brushstroke);
+    font-family: 'Finger Paint', cursive;
+    text-transform: uppercase;
+    padding: 20px;
+    color: antiquewhite;
+    font-size: 36px;
 }
 
 p {
