@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Go Houdini</title>
+</head>
+<body>
+    <article>
+        <h1>Paint API</h1>
+        <form action="/index.html">
+            <textarea name="kek" id="kek" cols="100" rows="50"></textarea>
+        </form>
+        <h2>I am a cat :3</h2>
+        <p>Ya ne khleb, ya tochno ne khleb. Ya v etom uveren, i ty mne pover. Yesli khochesh, skazhu tebe myau-myau-myau-myau, ved khleb ne umeet myavkat tak.</p>
+    </article>
+    <script>
+        if ('paintWorklet' in CSS) {
+            CSS.paintWorklet.addModule('./js/worklets/cat.js');
+            CSS.paintWorklet.addModule('./js/worklets/superUnderline.js');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+form {
+    text-align: center;
+}
+
+textarea {
+    height: 300px;
+    width: 300px;
+    background-image: paint(circle);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    background-image: paint(superUnderline);
+    padding: 30px 30px;
+    font-size: 24px;
+}
